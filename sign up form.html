@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<heaad>
+    <title>
+        login form
+    </title>
+    <style>
+        body {
+            background: url(back.jpg) no-repeat;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 20px;
+        }
+        
+        .back {
+            background: url(back.jpg) no-repeat;
+            background-size: cover;
+        }
+        
+        .login {
+            border-style: solid;
+            width: 500px;
+            height: 900px;
+            background: transparent;
+            color: #fff;
+            top: 70%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            padding: 150px 50px;
+            border-width: 2px;
+        }
+        
+        .cartoon {
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+            top: -50px;
+            left: calc(50%-50px);
+            position: absolute;
+            margin-left: 115px;
+            margin-right: auto;
+        }
+        
+        .h1 {
+            padding: 0 o 20px;
+            margin: 0%;
+            text-align: center;
+        }
+        
+        .login p {
+            font-weight: bold;
+        }
+        
+        .login input {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .use {
+            border: none;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            border-bottom: 1px solid #fff;
+            color: white;
+            font-size: 16px;
+        }
+        
+        .pass {
+            border: none;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            border-bottom: 1px solid #fff;
+            color: white;
+            font-size: 16px;
+        }
+        
+        .submit {
+            background: red;
+            border-radius: 30px;
+            padding: 15px;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: white;
+        }
+        
+        .submit:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+        
+        .a {
+            text-decoration: none;
+            line-height: 20px;
+            font-size: 20px;
+            color: black;
+        }
+        
+        .a:hover {
+            color: #ffc107;
+        }
+        
+        @media(max-width:600px) {
+            .back {
+                background: url("back.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    </style>
+</heaad>
+
+<body>
+    <div class="back">
+        <div class="login">
+            <h1 class=" h1 "><u>Sign Up</u></h1>
+            <form>
+                <p>First Name</p>
+                <input type="text " placeholder="Enter Your First Name " class="use" required>
+                <p>Middle Name</p>
+                <input type="text " placeholder="Enter Your Middle Name " class="use">
+                <p>Last Name</p>
+                <input type="text " placeholder="Enter Your Last Name " class="use">
+                <p>D.O.B</p>
+                <input type="text " placeholder="Enter Your Name " class="use">
+
+                <p>Password</p>
+                <input type="password " placeholder="Enter Your Password " class="pass">
+                <br>
+                <input type="submit " name="Login " value="Login" class="submit"><br>
+                <a href="a" class="a">Lost Your Password ?</a><br>
+                <a href="a" class="a">Don't Have Account ?</a>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+</html>
