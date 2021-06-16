@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "hllo.github.io",
+			"path": "..\\..\\hllo.github.io\\hllo.github.io"
+		}
+	],
+    "settings": {
+        "files.autoSave": "afterDelay"
+    }
+}

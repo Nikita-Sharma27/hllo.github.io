@@ -1,4 +1,4 @@
-.carousel-item {
+    .carousel-item {
     max-height: 800px;
     margin-top: 20px;
 }
@@ -7,16 +7,15 @@
     margin-top: 20px;
 }
 
-footer{
+footer {
     border-style: solid;
-    background-color:transparent;
-    border-width:2px;
-    border-color:white;
-    
-    
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
 }
-.footer-img{
-    padding:5px;
+
+.footer-img {
+    padding: 5px;
 }
 
 h2 {

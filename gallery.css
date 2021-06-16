@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* The image used */
+    background: black;
+    /* Add the blur effect */
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+}
+
+ul li {
+    text-align: center;
+}
+
+.canteen {
+    float: left;
+    height: 500px;
+    padding-left: 80px;
+    margin-top: 60px
+}
+
+.kit {
+    height: 800px;
+    width: 490px;
+}
+
+.island {
+    float: left;
+    margin-top: -200px
+}
+
+.heart {
+    height: 300px;
+    float: right;
+    margin-top: 20px;
+    width: 550px;
+}
+
+.liv {
+    float: left;
+    height: 500px;
+    margin-top: 10px;
+    width: 750
+}
+
+.light {
+    height: 500px;
+    width: 690px;
+    margin-top: 10px;
+}
+
+.officed {
+    width: 900;
+    float: left;
+    margin-top: 20px;
+    height: 580;
+}
+
+.ii {
+    width: 550;
+    float: right;
+    height: 600;
+    margin-top: -10px;
+}
