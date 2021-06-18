@@ -206,4 +206,14 @@ footer ul li a {
     #navbarNavDropdown {
         background-color: black;
     }
+    .about li {
+        list-style: none;
+        padding: -10px;
+    }
+    .about li a {
+        list-style: none;
+        color: cyan;
+        text-decoration: none;
+        padding-left: -15px;
+    }
 }
