@@ -54,6 +54,12 @@ footer ul li a {
     color: white;
 }
 
+footer ul li {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
 .foot {
     margin: 20px;
 }
@@ -92,12 +98,19 @@ footer ul li a {
         list-style: none;
         padding: 10px;
     }
+    footer ul li {
+        list-style: none;
+        padding: 0px;
+    }
     .foot {
         margin: 20px;
     }
     footer form {
         background-color: rgba(0, 0, 0, 0.4);
         width: 250px;
+    }
+    .footer-bottom {
+        color: white;
     }
     .content {
         padding: 2px;

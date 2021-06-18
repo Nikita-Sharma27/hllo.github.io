@@ -38,6 +38,18 @@ body {
     background-color: rgba( 0, 0, 0, 0.4)
 }
 
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer ul li {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 .content {
     padding: 200px;
 }
@@ -88,12 +100,19 @@ footer ul {
         list-style: none;
         padding: 10px;
     }
+    footer ul li {
+        list-style: none;
+        padding: 0px;
+    }
     .foot {
         margin: 20px;
     }
     footer form {
         background-color: rgba(0, 0, 0, 0.4);
         width: 250px;
+    }
+    .footer-bottom {
+        color: white;
     }
     .content {
         padding: 2px;
@@ -102,10 +121,6 @@ footer ul {
     }
     body {
         width: 100%;
-    }
-    footer ul li a {
-        color: cyan;
-        text-decoration: none;
     }
     .penetrate {
         width: 520px;
