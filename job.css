@@ -216,4 +216,7 @@ footer ul li a {
         text-decoration: none;
         padding-left: -15px;
     }
+    #navbarNavDropdown {
+        background-color: black;
+    }
 }

@@ -133,4 +133,7 @@ footer ul {
         justify-content: center;
         font-size: 55px;
     }
+    #navbarNavDropdown {
+        background-color: black;
+    }
 }
