@@ -75,14 +75,11 @@ footer ul {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 footer ul li a {
     color: cyan;
     text-decoration: none;
 }
 
-=======
->>>>>>> a3e31263cfe4631bef07278b464d099fab5bb7a4
 @media(max-width:600px) {
     .footer {
         border-style: solid;
@@ -125,5 +122,8 @@ footer ul li a {
         align-items: center;
         justify-content: center;
         font-size: 40px;
+    }
+    #navbarNavDropdown {
+        background-color: black;
     }
 }
