@@ -1,226 +1,226 @@
-                .carousel-item {
-                    max-height: 800px;
-                    margin-top: 20px;
-                }
-                
-                .carousel-slide {
-                    margin-top: 20px;
-                }
-                
-                footer {
-                    border-style: solid;
-                    background-color: transparent;
-                    border-width: 2px;
-                    border-color: white;
-                }
-                
-                .footer-img {
-                    padding: 5px;
-                }
-                
-                h2 {
-                    color: white;
-                    font-size: 70px;
-                    padding: 80px;
-                    display: flex;
-                    align-items: center;
-                }
-                
-                .flip {
-                    padding: 20px;
-                }
-                
-                .card {
-                    align-items: center;
-                    padding: 20px;
-                    background-color: transparent;
-                    color: white;
-                    border-width: 2px;
-                    border-color: white;
-                }
-                
-                .card-text {
-                    align-items: center;
-                }
-                
-                .card-title {
-                    align-items: center;
-                    text-align: center
-                }
-                
-                body {
-                    background-image: url("back.jpg");
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                }
-                
-                .navbar {
-                    position: absol
-                }
-                
-                .content {
-                    font-size: 30px;
-                    border: gray;
-                    padding: 40px;
-                    width: 100%;
-                    background-color: rgba(0, 0, 0, 0.4)
-                }
-                
-                .circle {
-                    float: right;
-                }
-                
-                .content form h1 {
-                    font-size: 60px;
-                    color: cyan;
-                }
-                
-                form {
-                    border-color: white;
-                    border-width: 5px;
-                    border-color: white;
-                    color: white;
-                }
-                
-                .heading {
-                    align-items: center;
-                }
-                
-                .card-img-top {
-                    width: 200px;
-                }
-                
-                .nav {
-                    background-color: rgba(0, 0, 0, 0.4);
-                }
-                
-                .footer {
-                    border-style: solid;
-                    border-width: 2px;
-                    border-color: white;
-                    color: white;
-                    padding: 30px;
-                    height: 350px;
-                    border-radius: 5px;
-                    background-color: rgba( 0, 0, 0, 0.4)
-                }
-                
-                .footer-bottom {
-                    text-align: center;
-                    color: white;
-                }
-                
-                footer ul {
-                    list-style: none;
-                    color: white;
-                    padding: 20px;
-                }
-                
-                footer ul li {
-                    list-style: none;
-                    color: white;
-                    padding: 10px;
-                }
-                
-                .foot {
-                    margin: 20px;
-                }
-                
-                .phone {
-                    font-size: 20px;
-                    color: cyan;
-                    text-decoration: none;
-                }
-                
-                .socials {
-                    font-size: 25px;
-                    color: cyan;
-                }
-                
-                #direction {
-                    font-size: 20px;
-                }
-                
-                .socials a {
-                    font-size: 30px;
-                    color: cyan;
-                    text-decoration: none;
-                }
-                
-                footer ul li a {
-                    color: white;
-                    text-decoration: none;
-                }
-                
-                .card-body p a {
-                    text-decoration: none;
-                    color: cyan;
-                    font-weight: bold;
-                }
-                
-                @media(max-width: 600px) {
-                    h2 {
-                        font-size: 55px;
-                        text-align: center;
-                        padding-left: 25px;
-                    }
-                    .flip {
-                        align-items: center;
-                    }
-                    .carousel-slide {
-                        max-height: 800px
-                    }
-                    .carousel-item {
-                        max-height: 800px;
-                    }
-                    .circle {
-                        height: 200px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        padding: 0;
-                        margin: 0;
-                    }
-                    .footer {
-                        border-style: solid;
-                        border-width: 2px;
-                        border-color: white;
-                        color: white;
-                        height: 650px;
-                        width: 220px;
-                    }
-                    footer ul {
-                        list-style: none;
-                        padding: 10px;
-                    }
-                    footer ul li {
-                        list-style: none;
-                        padding: 0px;
-                    }
-                    .foot {
-                        margin: 20px;
-                    }
-                    footer form {
-                        background-color: rgba(0, 0, 0, 0.4);
-                        width: 250px;
-                    }
-                    .footer-bottom {
-                        color: white;
-                    }
-                    .card-img-top {
-                        width: 100px;
-                        height: 100px;
-                    }
-                    .card {
-                        padding: 8px;
-                        background-color: transparent;
-                        color: white;
-                        border-width: 2px;
-                        border-color: white;
-                        height: 390px;
-                        width: 320px;
-                    }
-                    #navbarNavDropdown {
-                        background-color: black;
-                    }
-                }
+.carousel-item {
+    max-height: 800px;
+    margin-top: 20px;
+}
+
+.carousel-slide {
+    margin-top: 20px;
+}
+
+footer {
+    border-style: solid;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
+}
+
+.footer-img {
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    font-size: 70px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.flip {
+    padding: 20px;
+}
+
+.card {
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+}
+
+.card-text {
+    align-items: center;
+}
+
+.card-title {
+    align-items: center;
+    text-align: center
+}
+
+body {
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    position: absol
+}
+
+.content {
+    font-size: 30px;
+    border: gray;
+    padding: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.circle {
+    float: right;
+}
+
+.content form h1 {
+    font-size: 60px;
+    color: cyan;
+}
+
+form {
+    border-color: white;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+}
+
+.heading {
+    align-items: center;
+}
+
+.card-img-top {
+    width: 200px;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    padding: 30px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: rgba( 0, 0, 0, 0.4)
+}
+
+.footer-bottom {
+    text-align: center;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    color: white;
+    padding: 20px;
+}
+
+footer ul li {
+    list-style: none;
+    color: white;
+    padding: 10px;
+}
+
+.foot {
+    margin: 20px;
+}
+
+.phone {
+    font-size: 20px;
+    color: cyan;
+    text-decoration: none;
+}
+
+.socials {
+    font-size: 25px;
+    color: cyan;
+}
+
+#direction {
+    font-size: 20px;
+}
+
+.socials a {
+    font-size: 30px;
+    color: cyan;
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-body p a {
+    text-decoration: none;
+    color: cyan;
+    font-weight: bold;
+}
+
+@media(max-width: 600px) {
+    h2 {
+        font-size: 55px;
+        text-align: center;
+        padding-left: 25px;
+    }
+    .flip {
+        align-items: center;
+    }
+    .carousel-slide {
+        max-height: 800px
+    }
+    .carousel-item {
+        max-height: 800px;
+    }
+    .circle {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .footer {
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        color: white;
+        height: 650px;
+        width: 220px;
+    }
+    footer ul {
+        list-style: none;
+        padding: 10px;
+    }
+    footer ul li {
+        list-style: none;
+        padding: 0px;
+    }
+    .foot {
+        margin: 20px;
+    }
+    footer form {
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 250px;
+    }
+    .footer-bottom {
+        color: white;
+    }
+    .card-img-top {
+        width: 100px;
+        height: 100px;
+    }
+    .card {
+        padding: 8px;
+        background-color: transparent;
+        color: white;
+        border-width: 2px;
+        border-color: white;
+        height: 390px;
+        width: 320px;
+    }
+    #navbarNavDropdown {
+        background-color: black;
+    }
+}
